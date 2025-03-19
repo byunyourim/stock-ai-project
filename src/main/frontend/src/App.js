@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react";StockList
 import StockList from "./components/StockList"; // StockList.js를 불러옴
 
 function App() {
   return (
       <div className="App">
-        <h1>한화투자증권 주식 정보</h1>
-        <StockList />
+        <h1>주식 조회 및 추천 시스템</h1>
+        <StockList/>
       </div>
   );
 }

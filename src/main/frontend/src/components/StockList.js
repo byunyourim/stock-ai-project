@@ -9,11 +9,14 @@ const StockList = () => {
   useEffect(() => {
     const fetchStockData = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/auth/token", {
+        const response = await axios.get("/auth/token", {
           params: {
             serviceKey: "kRbf3pPYuZRTZkVi6yG0Ee6zs88UgEpCBqIKc0qCdo5Nbl3XnpGekFsUykdd/pSH2PUu7xZZgHfSj0RWcbbVRA=="
           },
           timeout: 30000
+
+
+
         });
 
         debugger;
